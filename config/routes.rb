@@ -1,4 +1,6 @@
 DigIt::Application.routes.draw do
+  root 'discs#index'
+  get '/ebay.js', controller: 'discs', action: 'index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

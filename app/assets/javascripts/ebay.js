@@ -5,7 +5,7 @@ $(window).load(function() {
     var searchstring = $('input[type="text"]', this).val();
     //console.log(searchstring);
     // your ajax request, using the variable above
-    var url = "http://svcs.ebay.com/services/search/FindingService/v1";
+    var url = "https://svcs.ebay.com/services/search/FindingService/v1";
     url += "?OPERATION-NAME=findCompletedItems";
     url += "&SERVICE-VERSION=1.13.0";
     url += "&SERVICE-NAME=FindingService";

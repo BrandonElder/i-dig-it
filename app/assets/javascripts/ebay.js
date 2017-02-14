@@ -18,7 +18,7 @@ $(window).load(function() {
     url += "&itemFilter(0).paramName=Currency";
     url += "&itemFilter(0).paramValue=USD";
     url += "&paginationInput.pageNumber=1";
-    url += "&paginationInput.entriesPerPage=25";
+    url += "&paginationInput.entriesPerPage=50";
     url += "&keywords=" + searchstring;
     url += "&sortOrder=StartTimeNewest";
     url += "&categoryId=176985";

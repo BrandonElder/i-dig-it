@@ -4,10 +4,19 @@
 
 /* NAVBAR */
 
-.btn-default {
+.btn-default,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus {
   background: #42DB9B;
   color: #fff;
   border-color: #828282;
+}
+
+.btn-default:hover {
+  color: black;
+  background-color: transparent;
+  border-color: #42DB9B;
 }
 
 .navbar-default .navbar-brand {
@@ -44,4 +53,19 @@ div.results img {
 
 div.index.h2 {
   font-family: 'News Cycle', sans-serif;
+}
+
+.btn-info,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus {
+  color: black;
+  background-color: transparent;
+  border-color: #42DB9B;
+}
+
+.btn-info:hover {
+  background: #42DB9B;
+  color: #fff;
+  border-color: #828282;
 }

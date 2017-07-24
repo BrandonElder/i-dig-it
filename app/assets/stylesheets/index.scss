@@ -1,0 +1,55 @@
+.info-container {
+  padding: 25px;
+}
+
+/* Results Styles */
+
+.index {
+  padding: 25px;
+}
+
+.results-title {
+  font-size: 26px;
+}
+
+div.results {
+  font-weight: bold;
+}
+
+div.results img {
+  border-radius: 2%;
+  width: 80px;
+  height: auto;
+}
+
+/* Buttons */
+
+.btn-default,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus {
+  background: #42DB9B;
+  color: #fff;
+  border-color: #828282;
+}
+
+.btn-default:hover {
+  color: black;
+  background-color: transparent;
+  border-color: #42DB9B;
+}
+
+.btn-info,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus {
+  color: black;
+  background-color: transparent;
+  border-color: #42DB9B;
+}
+
+.btn-info:hover {
+  background: #42DB9B;
+  color: #fff;
+  border-color: #828282;
+}

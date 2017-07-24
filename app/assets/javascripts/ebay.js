@@ -20,7 +20,7 @@ $(window).load(function() {
     url += "&paginationInput.pageNumber=1";
     url += "&paginationInput.entriesPerPage=50";
     url += "&keywords=" + searchstring;
-    url += "&sortOrder=StartTimeNewest";
+    url += "&sortOrder=EndTimeSoonest";
     url += "&categoryId=176985";
 
     $.ajax({
